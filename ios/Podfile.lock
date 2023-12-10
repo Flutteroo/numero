@@ -1,5 +1,5 @@
 PODS:
-  - camera (0.0.1):
+  - camera_avfoundation (0.0.1):
     - Flutter
   - Firebase (8.12.1):
     - Firebase/Core (= 8.12.1)
@@ -237,7 +237,7 @@ PODS:
   - SSZipArchive (2.4.2)
 
 DEPENDENCIES:
-  - camera (from `.symlinks/plugins/camera/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
   - Firebase
   - Flutter (from `Flutter`)
   - google_ml_kit (from `.symlinks/plugins/google_ml_kit/ios`)
@@ -282,21 +282,21 @@ SPEC REPOS:
     - SSZipArchive
 
 EXTERNAL SOURCES:
-  camera:
-    :path: ".symlinks/plugins/camera/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
   Flutter:
     :path: Flutter
   google_ml_kit:
     :path: ".symlinks/plugins/google_ml_kit/ios"
 
 SPEC CHECKSUMS:
-  camera: 9993f92f2c793e87b65e35f3a23c70582afb05b1
+  camera_avfoundation: 07c77549ea54ad95d8581be86617c094a46280d9
   Firebase: 580d09e8edafc3073ebf09c03fd42e4d80d35fe9
   FirebaseAnalytics: bd10d7706ba8d6e01ea2816f8fe9e9b881cb0918
   FirebaseCore: 8138de860a90ca7eec5e324da5788fb0ebf1d93c
   FirebaseCoreDiagnostics: 3b40dfadef5b90433a60ae01f01e90fe87aa76aa
   FirebaseInstallations: 25764cf322e77f99449395870a65b2bef88e1545
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   google_ml_kit: a85eefb9ea6156b27ee2fba2b71e461e7b26a4f6
   GoogleAppMeasurement: ae033c3aad67e68294369373056b4d74cc8ae0d6
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
@@ -332,4 +332,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 5ecb85e7a63e18296dfddfaf6c9a136c04832cb8
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1
